@@ -1,0 +1,60 @@
+.seccionUnoExamenes {
+    margin: 5px 20px 20px 20px;
+    padding: 20px;
+    border-radius: ($borderR)-30;
+
+    .seccionUnoExamenes__tituloExamenes {
+        color: white;
+        font-size: $ftsize;
+        display: flex;
+        animation-name: tituloexamenesaparecer;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+    }
+
+    @keyframes tituloexamenesaparecer {
+        from {
+            opacity: 0%;
+            transform: translateX(-100px);
+        }
+
+        to {
+            opacity: 100%;
+            transform: translateX(0px);
+        }
+    }
+
+    .seccionUnoExamenes__parrafoExamenes {
+        color: white;
+        font-weight: 200;
+        display: flex;
+        animation-name: parrafoexamenesaparecer;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+    }
+    
+    @keyframes parrafoexamenesaparecer {
+        from {
+            opacity: 0%;
+            transform: translateX(-100px);
+        }
+    
+        to {
+            opacity: 100%;
+            transform: translateX(0px);
+        }
+    }
+}
+
+.seccionDosExamenes {
+    display: flex;
+    justify-content: center;
+}
+
+    
+    .seccionDosExamenes__grillaExamenes {
+        height: 1080px;
+        width: 1080px;
+        display: flex;
+        object-fit: cover;
+    }
