@@ -1,0 +1,66 @@
+@import "_variables.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Estilos Menu */
+
+nav {
+    display: flex;
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    li {
+    font-size: ($fontSize)-38;
+    font-style: italic;
+    }
+    
+    .logo {
+        padding: 10px 20px 10px 20px;
+        height: 70px;
+        width: 80px;
+        object-fit: contain;
+    }
+    
+    .nav-link-home {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 80px 200px 5px 20px ;
+        color: $azul;
+        transition: ease .3s; 
+    }
+    
+    .nav-link-home:hover {
+        color: $azul;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px;
+        color: $azul;
+        margin-right: 1rem;
+        transition: ease .3s;    
+    }
+    
+    .nav-link:hover {
+        color: $azul;
+    }
+}
+
+@import "_index.scss";
+@import "_examenes.scss";
+@import "_cursos.scss";
+@import "_contacto.scss";
+@import "_iniciar_sesion.scss";
+@import "_registrarse.scss";

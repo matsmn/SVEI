@@ -1,0 +1,132 @@
+/* Estilos Index */
+
+.header {
+    height: 350px;
+    background-color: $rojoDiv;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+
+    &__tituloPrincipalIndex {
+        color: $blanco;
+        font-size: ($fontSize)+10;
+        display: flex;
+        padding-left: 70px;
+        padding-top: 50px;
+    }
+
+    &__subTituloIndex {   
+        color: $blanco;
+        font-size: ($fontSize)-30;
+        display: flex;
+        align-items: left;
+        justify-self: flex-start;
+        animation-name: subtituloindexaparecer;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+        padding: 40px 20px 20px 0px;
+    }
+
+    @keyframes subtituloindexaparecer {
+        from {
+            opacity: 0%;
+            transform: translateX(-100px);
+        }
+
+        to {
+            opacity: 100%;
+            transform: translateX(0px);
+        }
+    }
+}
+
+.fondoAzul {
+    background-image: linear-gradient(#285185, #2b61ac);
+
+
+    &__seccionUnoIndex {
+        display: flex;
+        flex-direction: column;
+        border-color: $blanco;
+        border-style: solid;
+        border-width: 5px;
+        margin: 40px 20px 20px 20px;
+        width: 600px;
+        height: 350px;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+        &__seccionUnoIndex__quienesSomos {
+            color: $blanco;
+            padding-top: 10px;
+        }
+
+        &__seccionUnoIndex__parrafoIndex {
+            margin: 20px 0px 20px 4px;
+            color: $blanco;
+            width: 500px;
+        }
+    
+    &__seccionDosIndex {
+        display: flex;
+        flex-direction: column;
+        border-color: $blanco;
+        border-style: solid;
+        border-width: 5px;
+        margin: 40px 20px 20px 80px;
+        width: 600px;
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+        &__seccionDosIndex__videoIndex {
+        width: 480px;
+        height: 300px;
+        padding: 40px 0px 0px 80px;
+        }
+}
+.footer {
+    background-color: $blanco;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+   
+
+    &_a {
+        text-decoration: none;
+    }
+   
+    &__facebook-svg {
+        color: $azul;
+        padding: 10px 10px 20px 10px;
+    }
+
+    &__facebook-svg:hover {
+        color: $azul;
+    }
+    
+    &__instagram-svg {
+        color: $azul;
+        padding: 10px 10px 20px 10px;
+    }
+
+    &__instagram-svg:hover {
+        color: $azul;
+    }
+    
+    &__whatsapp-svg {
+        color: $azul;
+        padding: 10px 10px 20px 10px;
+    }
+
+    &__whatsapp-svg:hover {
+        color: $azul;
+    }
+}
