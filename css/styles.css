@@ -2,7 +2,7 @@
                 MOBILE
 **************************************/
 
-@media only screen and (min-width: 320px) and (max-width: 599px) {
+@media only screen and (min-width: 375px) and (max-width: 812px) {
 
     * {
         padding: 0;
@@ -611,7 +611,7 @@
 /*************************************
                 TABLET
 **************************************/
-@media only screen and (min-width: 600px) and (max-width: 768px)
+@media only screen and (min-width: 834px) and (max-width: 1112px)
 {
 
 }
@@ -621,7 +621,7 @@
 /*************************************
                 DESKTOP
 **************************************/
-@media only screen and (min-width: 1024px) and (max-width: 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1600px)
 {
     * {
         padding: 0;
